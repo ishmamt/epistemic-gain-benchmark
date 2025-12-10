@@ -38,7 +38,7 @@ pip install uv
 ```
 To install all the dependencies:
 ```bash
-git clone [https://github.com/your-username/epistemic-gain-benchmark.git](https://github.com/your-username/epistemic-gain-benchmark.git)
+git clone https://github.com/ishmamt/epistemic-gain-benchmark.git
 cd epistemic-gain-benchmark
 uv sync
 ```
