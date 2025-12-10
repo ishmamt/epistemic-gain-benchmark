@@ -32,10 +32,13 @@ Because the graph is probabilistic and generated with random UUIDs, the specific
 ## Getting Started
 
 ### 1. Installation
-Requires Python 3.12+ and standard data science libraries.
-
+Requires Python 3.12+ and standard data science libraries. It is better to run this project using `uv` for managing and installing dependencies. Learn more about uv from their <a href="https://docs.astral.sh/uv/getting-started/">official docs</a>. To install `uv` through `pip`, you can use:
+```bash
+pip install uv
+```
+To install all the dependencies:
 ```bash
 git clone [https://github.com/your-username/epistemic-gain-benchmark.git](https://github.com/your-username/epistemic-gain-benchmark.git)
 cd epistemic-gain-benchmark
-pip install networkx numpy scikit-learn
+uv sync
 ```
